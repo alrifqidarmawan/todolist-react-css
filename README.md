@@ -5,7 +5,7 @@ A basic and interactive to-do list application built with React class components
 ## Screenshot
 
 
-*Contoh: ![Todo List Screenshot](link_ke_screenshot_anda.png)*
+*![Todo List Screenshot](https://github.com/alrifqidarmawan/todolist-react-css/blob/main/src/assets/simple-todolist-react.png)*
 
 ## Features
 
@@ -29,7 +29,6 @@ A basic and interactive to-do list application built with React class components
 ## Project Structure
 
 *   `TodoLists.js`: The main React component containing all the logic and JSX for the to-do list.
-*   `todolist.css`: (Jika file ini ada dan digunakan) External CSS file for additional global or component styling.
 
 ## Prerequisites
 
@@ -41,20 +40,19 @@ Before you begin, ensure you have met the following requirements:
 
 To get a local copy up and running, follow these simple steps:
 
-1.  **Clone the repository (jika sudah ada di Git):**
+1.  **Clone the repository:**
     ```bash
-    git clone <URL_REPOSITORY_ANDA_JIKA_ADA>
-    cd <nama-folder-proyek>
+    git clone https://github.com/alrifqidarmawan/todolist-react-css/blob/main/src/assets/simple-todolist-react.png
+    cd simple-todolist-react
     ```
-    Jika belum ada di Git, cukup pastikan file `TodoLists.js` dan `todolist.css` (jika ada) berada dalam satu folder proyek.
+    Jika belum ada di Git, cukup pastikan file `TodoLists.jsx` dan `todolist.css` berada dalam satu folder proyek.
 
-2.  **Navigate to your project directory (jika belum):**
+2.  **Navigate to your project directory:**
     ```bash
     cd path/to/your/project-folder
     ```
 
-3.  **Install dependencies:**
-    (Jika ini adalah bagian dari proyek Create React App atau sejenisnya. Jika hanya file komponen tunggal, langkah ini mungkin tidak diperlukan jika kamu mengintegrasikannya ke proyek yang sudah ada).
+3.  **Install dependencies:** 
     *   Using npm:
         ```bash
         npm install
@@ -65,7 +63,6 @@ To get a local copy up and running, follow these simple steps:
         ```
 
 4.  **Start the development server:**
-    (Jika ini adalah bagian dari proyek Create React App atau sejenisnya).
     *   Using npm:
         ```bash
         npm start
@@ -74,7 +71,7 @@ To get a local copy up and running, follow these simple steps:
         ```bash
         yarn start
         ```
-    This will typically open the application in your default web browser at `http://localhost:3000`.
+    This will typically open the application in your default web browser at `[http://localhost:5173/]`.
 
     Jika kamu hanya memiliki file komponen ini dan ingin menjalankannya, kamu perlu mengintegrasikannya ke dalam aplikasi React yang sudah ada (misalnya, import dan render `<TodoLists />` di dalam `App.js`).
 
