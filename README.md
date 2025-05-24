@@ -42,7 +42,7 @@ To get a local copy up and running, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/alrifqidarmawan/todolist-react-css/blob/main/src/assets/simple-todolist-react.png
+    git clone https://github.com/alrifqidarmawan/todolist-react-css.git
     cd simple-todolist-react
     ```
     Jika belum ada di Git, cukup pastikan file `TodoLists.jsx` dan `todolist.css` berada dalam satu folder proyek.
