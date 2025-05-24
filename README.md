@@ -1,12 +1,101 @@
-# React + Vite
+# Simple React Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic and interactive to-do list application built with React class components. This project allows users to manage their daily tasks by adding new items and removing existing ones. The interface is styled to resemble a clean, paper-like an organized planner.
 
-Currently, two official plugins are available:
+## Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+*Contoh: ![Todo List Screenshot](link_ke_screenshot_anda.png)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+*   **Add New Todos:** Easily add new tasks to your list via an input field.
+*   **View Todos:** All current tasks are displayed in a clear, scrollable list.
+*   **Remove Todos:** Delete tasks individually by clicking the "×" button next to each item.
+*   **Clean Interface:** Styled to look like a sheet of paper or a digital planner.
+*   **Scrollable List:** The list area will scroll if the number of tasks exceeds the visible height.
+*   **Input Validation:** Prevents adding empty tasks.
+
+## Technologies Used
+
+*   **React:** (v17/v18)
+    *   Class Components
+    *   State Management (`this.state`, `this.setState`)
+    *   JSX for UI rendering
+    *   Inline Styling for component-specific styles
+*   **JavaScript (ES6+):** For application logic.
+*   **CSS:** Basic styling via `todolist.css` (jika ada) dan inline styles.
+
+## Project Structure
+
+*   `TodoLists.js`: The main React component containing all the logic and JSX for the to-do list.
+*   `todolist.css`: (Jika file ini ada dan digunakan) External CSS file for additional global or component styling.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+*   Node.js (LTS version recommended: [https://nodejs.org/](https://nodejs.org/))
+*   npm (comes with Node.js) or yarn
+
+## Installation & Setup
+
+To get a local copy up and running, follow these simple steps:
+
+1.  **Clone the repository (jika sudah ada di Git):**
+    ```bash
+    git clone <URL_REPOSITORY_ANDA_JIKA_ADA>
+    cd <nama-folder-proyek>
+    ```
+    Jika belum ada di Git, cukup pastikan file `TodoLists.js` dan `todolist.css` (jika ada) berada dalam satu folder proyek.
+
+2.  **Navigate to your project directory (jika belum):**
+    ```bash
+    cd path/to/your/project-folder
+    ```
+
+3.  **Install dependencies:**
+    (Jika ini adalah bagian dari proyek Create React App atau sejenisnya. Jika hanya file komponen tunggal, langkah ini mungkin tidak diperlukan jika kamu mengintegrasikannya ke proyek yang sudah ada).
+    *   Using npm:
+        ```bash
+        npm install
+        ```
+    *   Using yarn:
+        ```bash
+        yarn install
+        ```
+
+4.  **Start the development server:**
+    (Jika ini adalah bagian dari proyek Create React App atau sejenisnya).
+    *   Using npm:
+        ```bash
+        npm start
+        ```
+    *   Using yarn:
+        ```bash
+        yarn start
+        ```
+    This will typically open the application in your default web browser at `http://localhost:3000`.
+
+    Jika kamu hanya memiliki file komponen ini dan ingin menjalankannya, kamu perlu mengintegrasikannya ke dalam aplikasi React yang sudah ada (misalnya, import dan render `<TodoLists />` di dalam `App.js`).
+
+## How to Use
+
+1.  **Adding a Todo:**
+    *   Type your task into the input field (placeholder: "you can type it here... and saved it").
+    *   Click the "+" button to add the task to the list. Empty tasks will not be added.
+
+2.  **Viewing Todos:**
+    *   All added todos are displayed in a list format below the input field.
+    *   If the list becomes too long, a scrollbar will appear for the list area.
+
+3.  **Removing a Todo:**
+    *   Click the "×" button located to the right of the todo item you wish to remove. The item will be instantly deleted from the list.
+
+## Future Enhancements 
+
+*   Mark todos as complete (toggle functionality).
+*   Edit existing todos.
+*   Persist todos to local storage so they are not lost on page refresh.
+*   Filter todos (e.g., all, active, completed).
+
+---
